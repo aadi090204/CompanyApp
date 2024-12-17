@@ -1,0 +1,107 @@
+
+    <LinearLayout android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:background="#dfe6e9"
+        android:orientation="vertical"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Employee details"
+            android:layout_margin="10dp"
+            android:textColor="#464B66"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Employee code"
+            android:layout_margin="10dp"
+            android:textColor="#01060B"/>
+        <EditText
+            android:id="@+id/cd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:inputType="number"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Employee name"
+            android:layout_margin="10dp"
+            android:textColor="#01060B"/>
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Designation"
+            android:layout_margin="10dp"
+            android:textColor="#01060B"/>
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email Id"
+            android:layout_margin="10dp"
+            android:textColor="#01060B"/>
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salary"
+            android:layout_margin="10dp"
+            android:textColor="#01060B"/>
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:inputType="number"
+            android:textColor="@color/black"
+            />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/sub"
+            android:text="Submit"
+            android:textColor="#00050B"
+            android:background="#464B66"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/backbt"
+            android:text="Back to menu"
+            android:textColor="#00050B"
+            android:background="#464B66"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+
+
+
